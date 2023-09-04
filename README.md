@@ -1,6 +1,3 @@
-# AppWeb_PrintLab
-Repositorio del aplicativo web personalizado para PrintLab
-
 # Aplicativo Web para PrintLab
 
 Bienvenido al repositorio del aplicativo web personalizado para PrintLab. Este proyecto tiene como objetivo proporcionar a PrintLab una plataforma en línea que permita a sus clientes personalizar y comprar productos de impresión de manera sencilla y eficiente. Esta aplicación web ha sido diseñada y desarrollada con características clave que mejoran la experiencia de usuario y la gestión de productos por parte de PrintLab.
