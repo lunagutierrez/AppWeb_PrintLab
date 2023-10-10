@@ -2,7 +2,6 @@
 
 body{
     font-family: 'Raleway', sans-serif;
-    width: 440;
 }
 
 .navbar {
@@ -67,21 +66,104 @@ body{
     height: 173px;
 }
 
-.presentationBox{
-    position: relative;
-    width: 90%;
-    height: 512px;
-    left: 5%;
+.caja {
     background-color: #ffe400;
+    width: 80%;
+    height: 512px;
+    margin: 0 auto;
+    padding: 30px;
     border-radius: 3%;
+  }
+  
+.columna-1-caja {
+    width: 40%;
+    float: left;
+    padding: 30px;
+  }
+  
+.columna-2-caja {
+    background-color: #1e120e;
+    width: 50%;
+    float: right;
+    border-radius: 40%;
+}
+  
+.caja h1 {
+    font-size: 4em;
+    font-weight: 700;
+}
+  
+.caja p {
+    font-size: 1.5em;
+}
+  
+.caja input {
+    display: inline-block;
+    width: 400px;
+    height: 60px;
+    border-left: 40px;
+    text-align: center;
+    font-size: 1.5em;
+    border: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+  
+.caja img {
+    width: 100%;
 }
 
+.boton-caja {
+    display: inline-block;
+    background-color: #DA0080;
+    height: 60px;
+    color: #fff;
+    padding: 10px 20px;
+    border: #DA0080;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    cursor: pointer;
+  }
+  
+.boton-caja img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
 
-.presentationBox h1{
-    padding: 50px;
-    display:inline-block;
-    font-size: xx-large;
+.masPopulares {
+    background-color: #fff;
+    height: 700px;
 }
+
+.explora {
+    background-color: #7dc9ea;
+    height:700px;
+}
+
+.servicios{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.servicios h1{
+    padding-top: 30px;
+}
+
+.servicios img{
+    width: 120px;
+}
+
+.servicios table{
+    margin-top: 30px;
+    margin-left: 10%;
+    width: 80%;
+    font-size: 1.5em;
+}
+
 
 .footer {
     background-color: #1e120e;
@@ -93,7 +175,7 @@ body{
     z-index: 999;
   }
   
-  .columna-1 {
+.columna-1 {
     width: 25%;
     text-align: justify;
     padding: 50px;
@@ -101,15 +183,15 @@ body{
     display: inline-block;
   }
 
-  .columna-1 img{
+.columna-1 img{
     height: 91px;
   }
 
-  .columna-1 p{
+.columna-1 p{
     color:#928e8e;
   }
   
-  .columna-2 {
+.columna-2 {
     width: auto;
     padding: 50px;
     position: absolute;
@@ -119,12 +201,12 @@ body{
     display:inline-block;
   }
 
-  .columna-2 td,th{
+.columna-2 td,th{
     height: 50px;
     width: 200px;
   }
 
-  .columna-2 td{
+.columna-2 td{
     color:#928e8e;
   }
   
