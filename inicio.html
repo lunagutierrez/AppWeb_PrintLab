@@ -18,18 +18,18 @@
             <li><a href="#">NOSOTROS</a></li>
             </ul>
             <div class="iconos">
-            <a href="#">
-                <img src="assets/img/cart.png" alt="Carrito">
-            </a>
-            <a href="views/ingresar.html">
-                <img src="assets/img/user.png" alt="Usuario">
-            </a>
-            <a href="#">
-                <img src="assets/img/vertical_line.png" alt="Linea">
-            </a>
-            <a href="#">
-                <img src="assets/img/menu.png" alt="Menú">
-            </a>
+                <a href="#">
+                    <img src="assets/img/cart.png" alt="Carrito">
+                </a>
+                <a href="views/ingresar.html">
+                    <img src="assets/img/user.png" alt="Usuario">
+                </a>
+                <a href="#">
+                    <img src="assets/img/vertical_line.png" alt="Linea">
+                </a>
+                <a href="#">
+                    <img src="assets/img/menu.png" alt="Menú">
+                </a>
             </div>
         </nav>
     </div>
@@ -38,12 +38,21 @@
         <div class="columna-1-caja">
           <h1>¿Estás buscando un diseño ideal?</h1>
           <p>Usa nuestra plataforma para personalizar, diseñar e imprimir tus productos, y nosotros nos encargamos de llevarlos directamente hasta tu puerta.</p>
-          <button class="boton-caja">
-            <span class="texto">CATEGORÍAS</span>
-            <img src="assets/img/chevron-down-regular.png" alt="Icono">
-          </button>
-
-          <input type="text" placeholder="¿Qué estás buscando?">
+          <div class="search-bar">
+            <div class="category-dropdown">
+                <select id="category">
+                    <option disabled selected value="">Categorías</option>
+                    <option value="all">Todas las categorías</option>
+                    <option value="category1">Adhesivos</option>
+                    <option value="category2">Pósters</option>
+                    <option value="category3">Tarjetas</option>
+                </select>
+            </div>
+            <div class="search-input">
+                <input type="text" placeholder="¿Qué estás buscando?">
+                <button><img src="assets/img/bx-search-alt-2.svg" alt="Search"></button>
+            </div>
+          </div>
         </div>
         <div class="columna-2-caja">
           <img src="assets/img/impresiones.png" alt="Imagen">

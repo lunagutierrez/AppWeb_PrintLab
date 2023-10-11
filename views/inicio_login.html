@@ -14,7 +14,7 @@
             </div>
             <ul class="nav-links">
             <li><a href="inicio_login.html"><strong>INICIO</strong></a></li>
-            <li><a href="#">TIENDA</a></li>
+            <li><a href="tienda.html">TIENDA</a></li>
             <li><a href="#">NOSOTROS</a></li>
             </ul>
             <div class="iconos">
@@ -38,12 +38,21 @@
         <div class="columna-1-caja">
           <h1>¿Estás buscando un diseño ideal?</h1>
           <p>Usa nuestra plataforma para personalizar, diseñar e imprimir tus productos, y nosotros nos encargamos de llevarlos directamente hasta tu puerta.</p>
-          <button class="boton-caja">
-            <span class="texto">CATEGORÍAS</span>
-            <img src="../assets/img/chevron-down-regular.png" alt="Icono">
-          </button>
-
-          <input type="text" placeholder="¿Qué estás buscando?">
+          <div class="search-bar">
+            <div class="category-dropdown">
+                <select id="category">
+                    <option disabled selected value="">Categorías</option>
+                    <option value="all">Todas las categorías</option>
+                    <option value="category1">Adhesivos</option>
+                    <option value="category2">Pósters</option>
+                    <option value="category3">Tarjetas</option>
+                </select>
+            </div>
+            <div class="search-input">
+                <input type="text" placeholder="¿Qué estás buscando?">
+                <button><img src="../assets/img/bx-search-alt-2.svg" alt="Search"></button>
+            </div>
+          </div>
         </div>
         <div class="columna-2-caja">
           <img src="../assets/img/impresiones.png" alt="Imagen">
