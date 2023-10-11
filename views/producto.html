@@ -5,38 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Producto</title>
     <link href="../assets/css/style_store.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+
 </head>
 <body>
 
-<div class ="header">
-    <nav class="navbar">
-        <div class="logo">
-        <a href="../inicio.html"><img src="../assets/img/logo.png"></a>
-        </div>
-        <ul class="nav-links">
-        <li><a href="../inicio.html">INICIO</a></li>
-        <li><a href="tienda.html"><strong>TIENDA</strong></a></li>
-        <li><a href="#">NOSOTROS</a></li>
-        </ul>
-        <div class="iconos">
-        <a href="#">
-            <img src="../assets/img/cart.png" alt="Carrito">
-        </a>
-        <a href="#">
-            <img src="../assets/img/user.png" alt="Usuario">
-        </a>
-        <a href="#">
-            <img src="../assets/img/vertical_line.png" alt="Linea">
-        </a>
-        <a href="#">
-            <img src="../assets/img/menu.png" alt="Menú">
-        </a>
-        </div>
-    </nav>
+<div class ="header_pl">
+        <nav class="navbar_pl">
+            <div class="logo_pl">
+            <a href="../inicio.html"><img src="../assets/img/logo.png"></a>
+            </div>
+            <ul class="nav-links_pl">
+            <li><a href="../inicio.html">INICIO</a></li>
+            <li><a href="tienda.html"><strong>TIENDA</strong></a></li>
+            <li><a href="#">NOSOTROS</a></li>
+            </ul>
+            <div class="iconos">
+            <a href="#">
+                <img src="../assets/img/cart.png" alt="Carrito">
+            </a>
+            <a href="#">
+                <img src="../assets/img/user.png" alt="Usuario">
+            </a>
+            <a href="#">
+                <img src="../assets/img/vertical_line.png" alt="Linea">
+            </a>
+            <a href="#">
+                <img src="../assets/img/menu.png" alt="Menú">
+            </a>
+            </div>
+        </nav>
 </div>
 
 
-<div class="path-bar">
+<div class="path-bar_pl">
     <span><a href="../inicio.html">Inicio</a></span>
     <span>&gt;</span>
     <span><a href="tienda.html">Tienda</a></span>
@@ -45,142 +52,387 @@
 </div>
 
 
-
 <div class="product-detail-container">
-    <div class="product-images">
-        <div class="main-image">
-            <img src="https://staticecp.uprinting.com/6981/700x700/UP_Custom_Stickers_PDP_Promotional_B.jpg" alt="Product Main Image">
-        </div>
-        <div class="image-carousel">
-            <img src="https://staticecp.uprinting.com/6802/700x700/UP_CTS_PDP_Image_C.jpg" alt="Thumbnail 1">
-            <img src="https://staticecp.uprinting.com/5754/700x700/UP_Stickers_and_Labels_Cut_to_Size_Gallery_1_A.jpg" alt="Thumbnail 2">
-            <img src="https://staticecp.uprinting.com/1016/700x700/Custom_Sticker_Crack_and_Peel_B_1400x1400.jpg" alt="Thumbnail 3">
-        </div>
-    </div>
 
-    <div class="product-characteristics">
-        <h2>Product Name</h2>
-        <p>Product description goes here.</p>
-        
-        <div class="dropdowns">
-            <div class="dropdown">
+    <div class="row">
 
-                <label for="forma">Forma:</label>
-                <select id="forma">
-                    <option value="c">Círculo</option>
-                    <option value="r">Rectángulo</option>
-                    <option value="cu">Cuadrado</option>
-                </select>
-
-                <label for="">:</label>
-                <select id="">
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                </select>
-
-
-                <label for="">:</label>
-                <select id="">
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                </select>
-
-                <label for="">:</label>
-                <select id="">
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                </select>
-
-                <label for="">:</label>
-                <select id="">
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                </select>
+        <div class="product-images">
+            <div class="main-image">
+                <img id="main-product-image" src="https://staticecp.uprinting.com/6981/700x700/UP_Custom_Stickers_PDP_Promotional_B.jpg" alt="Product Main Image">
+            </div>
+            <div class="image-carousel">
+                <img class="thumbnail" src="https://staticecp.uprinting.com/6802/700x700/UP_CTS_PDP_Image_C.jpg" alt="Thumbnail 1">
+                <img class="thumbnail" src="https://staticecp.uprinting.com/5754/700x700/UP_Stickers_and_Labels_Cut_to_Size_Gallery_1_A.jpg" alt="Thumbnail 2">
+                <img class="thumbnail" src="https://staticecp.uprinting.com/1016/700x700/Custom_Sticker_Crack_and_Peel_B_1400x1400.jpg" alt="Thumbnail 3">
             </div>
         </div>
 
-        <div class="sticky-menu">
-            <ul>
-                <li><a href="#description">Description</a></li>
-                <li><a href="#recommendations">Recommendations</a></li>
-                <li><a href="#comments">Comments</a></li>
-                <li><a href="#faq">FAQ</a></li>
-            </ul>
+        <div class="product-characteristics">
+            <h1>Sticker 1</h1>
+            <p>Sticker</p>
+            
+            <div class="dropdowns">
+                <div class="dropdown">
+
+                    <label for="forma">Forma:</label>
+                    <select id="forma">
+                        <option value="c">Círculo</option>
+                        <option value="r">Rectángulo</option>
+                        <option value="cu">Cuadrado</option>
+                    </select>
+
+                    <label for="tamaño">Tamaño:</label>
+                    <select id="tamaño">
+                        <option value="l">Grande</option>
+                        <option value="m">Mediano</option>
+                        <option value="s">Pequeño</option>
+                        
+                    </select>
+
+
+                    <label for="material">Material:</label>
+                    <select id="material">
+                        <option value="m1">Material1</option>
+                        <option value="m2">Material2</option>
+                        <option value="m3">Material3</option>
+                    </select>
+
+                    <label for="acabado">Acabado:</label>
+                    <select id="acabado">
+                        <option value="mate">Mate</option>
+                        <option value="shiny">Brillante</option>
+                    </select>
+
+                </div>
+            </div>
         </div>
     </div>
+
+    <div class="row">
+        <div class="col ms-5">
+            <ul class = "charcs">
+                <li>Sencillo, rollo, hoja y kiss-cut</li>
+                <li>Formas tradicionales y personalizadas</li>
+                <li>Doblar y pelar el respaldo en singles</li>
+                <li>Materiales impermeables y de escritura disponibles</li>
+            </ul>
+    
+            <div class="categ">
+                <h3>Categorías:</h3> 
+            <p id = "catg">MATERIAL DE MERCADEO, STICKERS, PEGATINA, PUBLICIDAD IMPRESA, MARKETING, MERCADEO, PUBLICIDAD, MARCADO PERSONALIZADOS, STICKERS BOGOTA, IMPRESION DIGITAL</p>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-end me-5 col mb-1 mt-3">
+            <div class="qcosto">
+                <div class="dropdown">
+                    <label for="Cantidad">Cantidad:</label>
+                    <select id="Cantidad">
+                        <option value="10">10</option>
+                        <option value="50">50</option>
+                        <option value="100">100</option>
+                        <option value="500">500</option>
+                    </select>
+    
+                </div>
+                <div class="costo d-flex justify-content-end">
+                    <h3>Costo</h3>
+                    <div class="precio d-flex flex-column align-items-center">
+                        <h4 class = "text-pink">$36,400</h4>
+                        <small>($130 cada uno)</small>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button class="cd-button">Cargar o Diseñar</button>
 </div>
+
 
 <div class="cta">
-    <h2>Ready to Buy?</h2>
-    <p>Click the "Buy Now" button to purchase this product.</p>
-    <button class="buy-button">Buy Now</button>
+    <h2>Listo para comprar?</h2>
+    <p>Agrega este producto a tu carrito</p>
+    <button class="buy-button">Comprar</button>
 </div>
 
-<div id="description" class="section">
-    <h2>Description</h2>
-    <p>Product description goes here...</p>
+
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link" href="#description">Descripción</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#recommendations">Recommendaciones</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#reviews">Reseñas</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#faq">FAQ</a>
+    </li>
+  </ul>
+
+  <div id="description" class="section">
+    <h2>Descripción</h2></br>
+    <h5>Nuestras opciones de stickers personalizados vienen en estilos y tamaños que se ajustan a todo tipo de personalidades y usos:</h5>
+
+    <ul class = "charcs">
+        <li>Los stickers individuales (anteriormente conocidos como stickers troquelados) son diseños únicos y separados que los clientes pueden agregar de forma individual
+        </li>
+        <li>Los stickers en rollo se ajustan a la mayoría de los dispensadores de etiquetas para una aplicación rápida y sencilla en artículos a granel. Es una elección práctica para propietarios de restaurantes o negocios de comercio electrónico que necesitan identificar sus productos.
+        </li>
+        <li>Las hojas de stickers son ideales para crear diferentes diseños en un mismo pedido. Imprime varios diseños iguales o diferentes para que cualquiera pueda pegar en sus laptops, teléfonos celulares, cuadernos u otras superficies personales.
+        </li>
+        <li>Los stickers con corte fácil (Kiss-cut) son fáciles de despegar y vienen con un respaldo cuadrado para proteger los bordes.</li>
+    </ul>
 </div>
+</br>
 
 <div id="recommendations" class="section">
-    <h2>Recommendations</h2>
-    <p>Product recommendations go here...</p>
-</div>
+    <h2>Recommendaciones</h2></br>
+    <h5>Ten en cuenta para tus diseños a la medida</h5>
 
-<div id="comments" class="section">
-    <h2>Comments</h2>
-    <p>Product comments go here...</p>
+    <ul class = "charcs">
+        <li>Te recomendamos que la resolución del archivo y las imagenes sean altas, mayor o igual a los 150 dpi. y debes enviarlas al tamaño final.
+        </li>
+        <li>Preferiblemente envía tus archivos en formatos .PDF, .TIFF, .PSD o .EPS
+        </li>
+        <li>Es importante que tengas en cuenta que las fuentes deben estar incorporadas o convertidas en trazados y las imágenes incrustadas. Te sugerimos que el tamaño de la fuente sea superior a 20 pt. para una excelente lectura.  
+        </li>
+        <li>Ten encuenta que el archivo de impresión deberá ser preparado en CMYK (cyan,magenta, amarillo y negro). Los archivos generados en RGB o con colores PANTONE, recomendamos convertirlos con un perfil de separación estándar CMYK.
+        </li>
+    </ul>
 </div>
+</br>
+
+<div  id="reviews" class="section">
+    <h2>Reseñas</h2>
+    
+    <div class="rating-container">
+        <div class="rating-box">
+            <h2 class="ov_rating">Overall Rating</h2>
+            <h1 class="ov_rating">4.2</h1>
+        </div>
+        
+        <div class="star-counts">
+            <p><i class="fas fa-star fa-sm star-yellow"></i> 5 stars: 123</p>
+            <p><i class="fas fa-star fa-sm star-yellow"></i> 4 stars: 45</p>
+            <p><i class="fas fa-star fa-sm star-yellow"></i> 3 stars: 18</p>
+            <p><i class="fas fa-star fa-sm star-yellow"></i> 2 stars: 7</p>
+            <p><i class="fas fa-star fa-sm star-yellow"></i> 1 star: 3</p>
+        </div>
+    </div>    
+    <section style="color: #000 background-color: #f3f2f2   ">
+        <div class="container py-5">
+        
+            <div class="row text-center">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <div class="card">
+                        <div class="card-body review-card">
+                            <div class="d-flex justify-content-center mb-4">
+                                <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp"
+                                    class="rounded-circle shadow-1-strong" width="100" height="100" />
+                            </div>
+                            <h5 class="font-weight-bold">Pepita Perez</h5>
+                            <h6 class="font-weight-bold my-3">Diseñadora</h6>
+                            <ul class="list-unstyled d-flex justify-content-center">
+                                <li>
+                                    <i class="fas fa-star fa-sm star-yellow"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star fa-sm star-yellow"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star fa-sm star-yellow"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star fa-sm star-yellow"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star-half-alt fa-sm star-yellow"></i>
+                                </li>
+                            </ul>
+                            <p class="mb-2">
+                                <i class="fas fa-quote-left pe-2"></i>Lorem ipsum dolor sit amet,
+                                consectetur adipisicing elit. Quod eos id officiis hic tenetur quae quaerat
+                                ad velit ab hic tenetur.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <div class="card">
+                        <div class="card-body review-card">
+                            <div class="d-flex justify-content-center mb-4">
+                                <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(15).webp"
+                                    class="rounded-circle shadow-1-strong" width="100" height="100" />
+                            </div>
+                            <h5 class="font-weight-bold"> Pepa Pombo</h5>
+                            <h6 class="font-weight-bold my-3">Fotógrafa</h6>
+                            <ul class="list-unstyled d-flex justify-content-center">
+                                <li>
+                                    <i class="fas fa-star fa-sm star-yellow"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star fa-sm star-yellow"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star fa-sm star-yellow"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star fa-sm star-yellow"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star fa-sm star-yellow"></i>
+                                </li>
+                            </ul>
+                            <p class="mb-2">
+                                <i class="fas fa-quote-left pe-2"></i>Autem, totam debitis suscipit saepe
+                                sapiente magnam officiis quaerat necessitatibus odio assumenda perferendis
+                                labore laboriosam.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-0">
+                    <div class="card">
+                        <div class="card-body review-card">
+                            <div class="d-flex justify-content-center mb-4">
+                                <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(17).webp"
+                                    class="rounded-circle shadow-1-strong" width="100" height="100" />
+                            </div>
+                            <h5 class="font-weight-bold">Pepita Pombo</h5>
+                            <h6 class="font-weight-bold my-3">EMpresaria</h6>
+                            <ul class="list-unstyled d-flex justify-content-center">
+                                <li>
+                                    <i class="fas fa-star fa-sm star-yellow"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star fa-sm star-yellow"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star fa-sm star-yellow"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star fa-sm star-yellow"></i>
+                                </li>
+                                <li>
+                                    <i class="far fa-star fa-sm star-yellow"></i>
+                                </li>
+                            </ul>
+                            <p class="mb-2">
+                                <i class="fas fa-quote-left pe-2"></i>Cras sit amet nibh libero, in gravida
+                                nulla metus scelerisque ante sollicitudin commodo cras purus odio,
+                                vestibulum in tempus viverra turpis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+</br>
 
 <div id="faq" class="section">
     <h2>FAQ</h2>
-    <div class="accordion">
-        <div class="accordion-item">
-            <h3>Question 1</h3>
-            <div class="accordion-content">
-                <p>Answer to Question 1 goes here.</p>
+
+    <div class="row">
+        <div class="col-md-3 ms-5">
+            <button class="preg-button">Haz una pregunta</button>
+        </div>
+
+        <div class="col-md-8">
+            <div class="accordion" id="basicAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#basicAccordionCollapseOne" aria-expanded="true" aria-controls="basicAccordionCollapseOne">
+                            Para los stickers Kiss-cut, ¿cuánto espacio debo dejar entre la pegatina y el borde del cuadrado?
+                        </button>
+                    </h2>
+                    <div id="basicAccordionCollapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#basicAccordion">
+                        <div class="accordion-body">
+                            El espacio entre la pegatina y el borde de cada cuadrado es de 1/4 de pulgada.Debes utilizar un trazo  para indicar la línea de corte del Kiss-cut.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#basicAccordionCollapseTwo" aria-expanded="false" aria-controls="basicAccordionCollapseTwo">
+                            En el paquete de 100 personalizados, ¿son 100 stickers con lo mismo en cada uno de ellos o son 100 stickers diferentes entre ellos?
+                        </button>
+                    </h2>
+                    <div id="basicAccordionCollapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#basicAccordion">
+                        <div class="accordion-body">
+                            En el paquete de 100 todos los stickers son iguales. Si deseas diferentes diseños, debes elegir la opción de hojas de stickers y comprar productos por separado.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#basicAccordionCollapseThree" aria-expanded="false" aria-controls="basicAccordionCollapseThree">
+                            ¿Cuántos stickers vienen por rollo?
+                        </button>
+                    </h2>
+                    <div id="basicAccordionCollapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#basicAccordion">
+                        <div class="accordion-body">
+                            Depende de tus necesidades. Puedes escoger entre 10, 50, 100 o 500 stickers por rollo.
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="accordion-item">
-            <h3>Question 2</h3>
-            <div class="accordion-content">
-                <p>Answer to Question 2 goes here.</p>
-            </div>
-        </div>
-        <!-- Add more FAQ items as needed -->
+    </div>
+</div>
+</br>
+
+
+
+<div id="other_products" class="section">
+    <h2>Otros productos que podrían interesarte</h2>
+    <div class="image-carousel-2">
+        <img class="thumbnail" src="https://staticecp.uprinting.com/6802/700x700/UP_CTS_PDP_Image_C.jpg" alt="Thumbnail 1">
+        <img class="thumbnail" src="https://staticecp.uprinting.com/5754/700x700/UP_Stickers_and_Labels_Cut_to_Size_Gallery_1_A.jpg" alt="Thumbnail 2">
+        <img class="thumbnail" src="https://staticecp.uprinting.com/1016/700x700/Custom_Sticker_Crack_and_Peel_B_1400x1400.jpg" alt="Thumbnail 3">
+        <img class="thumbnail" src="https://staticecp.uprinting.com/9876/510x510/sticker-clear.webp" alt="Thumbnail 4">
+        <img class="thumbnail" src="https://staticecp.uprinting.com/9035/530x530/Foil-rounded_Stickers_white-backing_A%20(1).jpg" alt="Thumbnail 5">
+        <img class="thumbnail" src="https://staticecp.uprinting.com/6808/530x530/UP_Sheet_Sticker_PDP_Image_D.jpg" alt="Thumbnail 6">
     </div>
 </div>
 
 
-    <footer class="footer">
-        <div class="columna-1">
-          <img src="../assets/img/logo_black.png" alt="Logo">
-          <p>Print Lab ofrece una rápida impresión. Ofrecemos tarjetas de visita, postales, volantes, folletos, material de oficina y otros productos de impresión de alta calidad. </p>
-          <p>Todos los derechos reservados</p>
-        </div>
-        <div class="columna-2">
-            <table>
-                <tr> 
-                    <th><strong>Links de interés</strong></th>
-                    <th><strong>Soporte</strong></th>
-                    <th><strong>Contacto</strong></th>
-                </tr>
-                <tr> 
-                    <td>Terminos de Uso</td>
-                    <td>FAQ</td>
-                    <td>601 1234587</td>
-                </tr>
-                <tr> 
-                    <td>Políticas de Privacidad</td>
-                    <td>Servicios de diseño</td>
-                    <td>printlab@gmail.com</td>
-                </tr>
-            </table>
-        </div>
-      </footer>
+<footer class="footer">
+    <div class="columna-1">
+        <img src="../assets/img/logo_black.png" alt="Logo">
+        <p>Print Lab ofrece una rápida impresión. Ofrecemos tarjetas de visita, postales, volantes, folletos, material de oficina y otros productos de impresión de alta calidad. </p>
+        <p>Todos los derechos reservados</p>
+    </div>
+    <div class="columna-2">
+        <table>
+            <tr> 
+                <th><strong>Links de interés</strong></th>
+                <th><strong>Soporte</strong></th>
+                <th><strong>Contacto</strong></th>
+            </tr>
+            <tr> 
+                <td>Terminos de Uso</td>
+                <td>FAQ</td>
+                <td>601 1234587</td>
+            </tr>
+            <tr> 
+                <td>Políticas de Privacidad</td>
+                <td>Servicios de diseño</td>
+                <td>printlab@gmail.com</td>
+            </tr>
+        </table>
+    </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+crossorigin="anonymous"></script>
 </body>
 </html>
   
