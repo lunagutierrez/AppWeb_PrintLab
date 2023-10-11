@@ -13,7 +13,7 @@ body{
 
 .navbar {
     background-color: white;
-    height: 120px;
+    height: 20%;
     width: 100%;
     position: fixed;
     top: 0;
@@ -76,14 +76,14 @@ body{
 .caja {
     background-color: #ffe400;
     width: 80%;
-    height: 550px;
+    aspect-ratio: 4.5/2;
     margin: 0 auto;
     padding: 30px;
     border-radius: 3%;
   }
   
 .columna-1-caja {
-    width: 40%;
+    width: 50%;
     float: left;
     padding: 30px;
   }
@@ -96,8 +96,8 @@ body{
 }
   
 .caja h1 {
-    font-size: 4em;
-    font-weight: 700;
+    font-size: 300%;
+    font-weight: bold;
 }
   
 .caja p {
@@ -350,5 +350,4 @@ select option {
     align-items: center;
     border-radius: 0 4px 4px 0;
 }
-
 
