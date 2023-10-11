@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingresa a tu Cuenta</title>
+    <link href="../assets/css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="logoInicio">
+        <a href="../inicio.html"><img src="../assets/img/logo.png"></a>
+    </div>
+
+    <div class="splashImg">
+        <img src="../assets/img/splash.png">
+    </div>
+    
+    <div class="formulario">
+        <form name="datosIngreso" action="../inicio.html" method="" >
+            <h1>Ingresa a tu cuenta</h1>
+            <p>¿No tienes una cuenta? <a href="crearCuenta.html">Crea una ahora</a></p>
+            <label for ="correo">Correo Electrónico</label><br>
+                <input id="correo" type="" name="correo"><br><br>
+            <label for ="contraseña"> Contraseña:</label><br>
+                <input id = "contraseña" type="password"><br><br>
+
+            <button class="botonForm">
+                <span class="texto">INGRESAR</span>
+            </button>
+            <p><a href="#">¿Olvidaste tu contraseña?</a></p>
+        </form>
+
+        <button class="ingresoAlt">
+            <img src="../assets/img/google.png" alt="Google">
+            <span class="texto_ingreso">Ingresar con Google</span>
+        </button><br>
+
+        <button class="ingresoAlt">
+            <img src="../assets/img/facebook.png" alt="Facebook">
+            <span class="texto_ingreso">Ingresa con Facebook</span>
+        </button>
+    </div>
+
+</html>
