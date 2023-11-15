@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link href="assets/css/style_boot.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+</head>
+<body>
+    
+  <nav id="navbar-logged-out" class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a href="inicio.html" class="navbar-brand ms-2">
+          <img width="50%" height="auto" src="assets/img/logo.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="custom-navbar-nav navbar-nav ms-0 mb-2 mb-md-0">
+            <li class="nav-item active"><a href="inicio.html" class="nav-link">INICIO</a></li>
+            <li class="nav-item"><a href="views/tienda.html" class="nav-link">TIENDA</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">NOSOTROS</a></li>
+          </ul>
+          
+          <ul class="icons d-flex justify-content-end mb-2 mb-md-0 ms-3">
+            <li>
+              <a href="#">
+                <img class="img-fluid" src="assets/img/cart.png" alt="Carrito">
+              </a>
+            </li>
+            <li>
+              <a href="views/ingresar.html">
+                <img class="img-fluid" src="assets/img/user.png" alt="Usuario">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img class="img-fluid" src="assets/img/vertical_line.png" alt="Linea">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img class="img-fluid" src="assets/img/menu.png" alt="Menú">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--
+    <nav id="navbar-logged-in" class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a href="inicio.html" class="navbar-brand">
+          <img width="50%" height="auto" src="assets/img/logo.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+            <li class="nav-item active"><a href="inicio.html" class="nav-link">INICIO</a></li>
+            <li class="nav-item"><a href="views/tienda.html" class="nav-link">TIENDA</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">NOSOTROS</a></li>
+          </ul>
+          
+          <ul class="icons d-flex justify-content-end">
+            <li>
+              <a href="#">
+                <img class="img-fluid" src="assets/img/cart.png" alt="Carrito">
+              </a>
+            </li>
+            <li>
+              <a href="views/ingresar.html">
+                <img class="img-fluid" src="assets/img/user.png" alt="Usuario">
+              </a>
+            </li>
+            <li>
+              <a class="nav-link" href="#">
+                <img width="80%" src="assets/img/exit.png" alt="Exit">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img class="img-fluid" src="assets/img/menu.png" alt="Menú">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    -->
+
+    <div class="hero">
+      <div class="container">
+          <div class="row justify-content-between">
+              <div class="col-lg-5">
+                  <div class="intro-excerpt">
+                      <h1>¿Estás </br>buscando un </br>diseño ideal?</h1>
+                      <p class="mb-4">Usa nuestra plataforma para personalizar, diseñar e imprimir tus productos, y nosotros nos encargamos de llevarlos directamente hasta tu puerta.</p>
+                      <div class="search-bar">
+                        <div class="category-dropdown">
+                            <select id="category">
+                                <option disabled selected value="">Categorías</option>
+                                <option value="all">Todas las categorías</option>
+                                <option value="category1">Adhesivos</option>
+                                <option value="category2">Pósters</option>
+                                <option value="category3">Tarjetas</option>
+                            </select>
+                        </div>
+                        <div class="search-input">
+                            <input type="text" placeholder="¿Qué estás buscando?">
+                            <button><img src="assets/img/bx-search-alt-2.svg" alt="Search"></button>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              
+              <div class="col-lg-6 ms-3">
+                  <div class="hero-img-wrap">
+                      <img src="assets/img/hero.png" width="90%" class="img-fluid">
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="product-section">
+    <div class="container">
+      <div class="row">
+
+        <!-- Col 1 -->
+        <div class="col-md-12 col-lg-3 mb-5 mb-lg-0">
+          <h2 class="mb-4 section-title">Los más vistos</h2>
+          <p class="mb-4">Échale un vistazo a nuestros productos más populares</p>
+          <p><a href="views/tienda.html" class="cd-button ver-mas no-underline">
+            <span class="button-text">VER MÁS</span>
+            <i class="fa fa-plus"></i>
+          </a></p>
+        </div> 
+
+        <!-- Col 2 -->
+        <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+          <a class="product-item" href="cart.html">
+            <img src="assets/img/card_b.jpg" class="img-fluid product-thumbnail">
+            <h3 class="product-title">Tarjetas de presentación</h3>
+            <strong class="product-price">Desde 3,000 COP c/u</strong>
+
+            <span class="icon-cross">
+              <img src="images/cross.svg" class="img-fluid">
+            </span>
+          </a>
+        </div> 
+
+        <!-- Col 3 -->
+        <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+          <a class="product-item" href="cart.html">
+            <img src="assets/img/calendar.jpg" class="img-fluid product-thumbnail">
+            <h3 class="product-title">Calendarios</h3>
+            <strong class="product-price">Desde 12,000 COP c/u</strong>
+
+            <span class="icon-cross">
+              <img src="images/cross.svg" class="img-fluid">
+            </span>
+          </a>
+        </div>
+
+        <!-- Col 4 -->
+        <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+          <a class="product-item" href="cart.html">
+            <img src="assets/img/sticker.jpg" class="img-fluid product-thumbnail">
+            <h3 class="product-title">Stickers</h3>
+            <strong class="product-price">Desde 700 COP c/u</strong>
+
+            <span class="icon-cross">
+              <img src="images/cross.svg" class="img-fluid">
+            </span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container servicios text-center mb-4">
+    <h1 class="mb-5">Nuestros Servicios de diseño</h1>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="service-item">
+                <img src="assets/img/bx-paint.svg" class="img-fluid rounded-circle" alt="Diseña y crea">
+                <h5 class="mt-3 text-center"><strong>Diseña y crea</strong></h5>
+                <p>Contamos con una amplia selección de plantillas diseñadas por profesionales, temas y estilos.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="service-item">
+                <img src="assets/img/bx-printer.svg" class="img-fluid rounded-circle" alt="Diseño profesional">
+                <h5 class="mt-3 text-center"><strong>Diseño profesional</strong></h5>
+                <p>Contamos con profesionales para ayudarte a hacer tus ideas realidad. Escribe a <strong>design@printlab.com.co</strong> para solicitar este servicio.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="service-item">
+                <img src="assets/img/bx-package.svg" class="img-fluid rounded-circle" alt="Carga tus archivos">
+                <h5 class="mt-3 text-center"><strong>Carga tus archivos</strong></h5>
+                <p>Sube archivos con tus diseños originales. Para obtener el mejor resultado posible, ten en cuenta nuestras <a href="#">recomendaciones de carga</a>.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <footer class="text-center text-lg-start text-white mt-5" style="background-color:  #1e120e">  
+            <div class="container p-2 pb-0">
+            
+            <section class="">
+                <div class="row">
+                    <!-- Grid column 1-->
+                    <div class="col-md-5 col-lg-4 col-xl-4 mx-auto">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">
+                        <a href="inicio.html" class="navbar-brand">
+                    <img width="60%" height="auto"
+                        src="assets/img/logo_black.png">
+
+                    </a>
+                    </h6>
+                    <p>Print Lab ofrece una rápida impresión. Ofrecemos tarjetas de visita, postales, volantes, folletos, material de oficina y otros productos de impresión de alta calidad. </p>
+                    </div>
+
+                    <hr class="w-100 clearfix d-md-none" />
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-5">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Links de interés</h6>
+                    <p>
+                        <a class="text-white">Términos de uso</a>
+                    </p>
+                    <p>
+                        <a class="text-white">Políticas de privacidad</a>
+                    </p>
+                    </div>
+
+                    <hr class="w-100 clearfix d-md-none" />
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-5">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">
+                        Soporte
+                    </h6>
+                    <p>
+                        <a class="text-white">FAQ</a>
+                    </p>
+                    <p>
+                        <a class="text-white">Servicios de diseño</a>
+                    </p>
+                    </div>
+
+                    <hr class="w-100 clearfix d-md-none" />
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-2 col-xl-2 mx-auto mt-5">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Contacto</h6>
+                    <p><i class="fas fa-home mr-3"></i> Bogotá, COL</p>
+                    <p><i class="fas fa-envelope mr-3"></i> printlab@gmail.com</p>
+                    <p><i class="fas fa-phone mr-3"></i> + 601 2145128</p>
+                    </div>
+                    
+                </div>
+            </section>
+            
+            <hr class="my-3">
+
+            <!-- Section: Copyright -->
+            <section class="p-3 pt-0">
+                <div class="row d-flex align-items-center">
+                    <!-- Grid column -->
+                    <div class="col-md-7 col-lg-8 text-center text-md-start">
+                    <!-- Copyright -->
+                    <div class="p-3">
+                        © 2023 Copyright:
+                        <a class="text-white" href="https://printlabcsolombia.com/"
+                        >Printlab</a
+                        >
+                    </div>
+                    </div>
+
+                    <!-- Grid column -->
+                    <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+                    <!-- Facebook -->
+                    <a
+                        class="btn btn-outline-light btn-floating m-1"
+                        class="text-white"
+                        role="button"
+                        ><i class="fab fa-whatsapp"></i
+                        ></a>
+
+                    <!-- Instagram -->
+                    <a
+                    class="btn btn-outline-light btn-floating m-1"
+                    class="text-white"
+                    role="button" href="https://www.instagram.com/printlab_col/"
+                    ><i class="fab fa-instagram"></i
+                    ></a>
+                
+
+                    <!-- Twitter -->
+                    <a
+                        class="btn btn-outline-light btn-floating m-1"
+                        class="text-white"
+                        role="button" 
+                        ><i class="fab fa-twitter"></i
+                        ></a>
+                    </div>
+
+                </div>
+            </section>
+
+        </div>
+    </footer>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+</body>
+</html>
