@@ -141,7 +141,7 @@ body{
     padding-left: 0; 
 }
 
-.navbar_pl, .header_pl, .path-bar_pl, .search-bar, .product-detail-container, .charcs, .qcosto,.section, .cta {
+.navbar_pl, .header_pl, .path-bar_pl, .search-bar, .product-detail-container, .charcs, .qcosto,.section, .cta, .nav-link {
     font-family: 'Raleway', sans-serif;
 }
 
@@ -223,6 +223,7 @@ select {
     width: 300px; 
     height: 100%;
     font-size: 18px;
+    border-radius: 4px 0 0 4px;
 }
 
 .search-input button {
@@ -243,6 +244,7 @@ select option {
     background-color: #fff; 
     color: #1E120E; 
 }
+
 
 
 
@@ -623,3 +625,7 @@ select option {
     transform: scale(1.1);
 }
 
+.nav-link{
+    color: #1E120E;
+    text-decoration: none;
+}
